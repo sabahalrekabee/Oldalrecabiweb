@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.0.0",
+  "entities": {
+    "books": {
+      "description": "Books and scholarly research publications of Sheikh Sabah Al-Rikabi",
+      "fields": {
+        "title": { "type": "string", "required": true },
+        "subtitle": { "type": "string", "required": false },
+        "category": { "type": "string", "required": true },
+        "author": { "type": "string", "required": true },
+        "year": { "type": "string", "required": false },
+        "pages": { "type": "number", "required": true },
+        "description": { "type": "string", "required": true },
+        "backCoverBlurb": { "type": "string", "required": false },
+        "frontCoverUrl": { "type": "string", "required": true },
+        "backCoverUrl": { "type": "string", "required": true },
+        "pdfUrl": { "type": "string", "required": false },
+        "pdfFileName": { "type": "string", "required": false },
+        "pdfFileSize": { "type": "number", "required": false },
+        "hasUploadedPdf": { "type": "boolean", "required": false },
+        "fullContent": { "type": "object", "required": false },
+        "featured": { "type": "boolean", "required": false },
+        "createdAt": { "type": "string", "required": true }
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "مؤلفات وبحوث الشيخ صباح الركابي",
+  "description": "موقع ومكتبة إلكترونية لعرض كتب ومؤلفات الشيخ صباح الركابي بالوجه والخلف مع إمكانية القراءة بصيغة PDF ورفع الكتب الجديدة",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
